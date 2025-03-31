@@ -11,10 +11,10 @@
 <body>
     <div class="container">
         <h1>Fichaje de Empleados</h1>
+        <!-- formulario fichaje -->
         <form action="process.php" method="post">
             <label for="nombre">Nombre del Empleado:</label>
             <input type="text" id="nombre" name="nombre" required>
-            
             <label for="tipo">Tipo de Fichaje:</label>
             <select id="tipo" name="tipo" required>
                 <option value="entrada">Entrada</option>

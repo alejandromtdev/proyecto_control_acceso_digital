@@ -3,12 +3,12 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "fichaje";
+$dbname = "fichaje"; //nombre base de datos 
 
-// Crear conexión
+// Creamos conexion 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Verificar conexión
+// Verifica errores conexion
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
